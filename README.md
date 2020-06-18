@@ -117,8 +117,8 @@ specified in the INCLUDEPATH.
 
 14.	After you have studied the code in the Hubitat Demo program you just 
 need to
-a.	Insert a “Hubitat Receiver” module into your own program.
-b.	Fill the parameter fields on the Receiver module in with
+a.	Insert a “Hubitat Comm Manager” module into your own program.
+b.	Fill the parameter fields on the Comm Manager module in with
 i.	The IP address of the Hubitat Hub
 ii.	The IP address of the Crestron Processor
 iii.	The communications port you specified in step 7
