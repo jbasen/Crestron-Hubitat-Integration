@@ -1,5 +1,14 @@
 # Crestron-Hubitat-Integration
 
+New version 2 adds improved support for devices that don't properly
+update feedback status after a command is sent to them.  There are now 
+inputs on modules to trigger a refresh and a parameter that will automatically
+trigger a refresh any time a command is sent to the hubitat.  To minimize 
+traffic to the hub this parameter should be set to no unless needed for a
+specific device
+
+____________________________________________________________________________
+
 The Crestron-Hubitat integration is a suite of Crestron modules that provide 
 a way to integrate off-the-shelf Zigbee, Z-Wave, and IoT devices into a 
 Crestron automation system using a Hubitat Elevation hub.  The Crestron 
