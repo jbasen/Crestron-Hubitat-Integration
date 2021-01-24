@@ -1,5 +1,13 @@
 # Crestron-Hubitat-Integration
 
+New version 3.1 adds support for double-tap and press-hold events for 
+switches and dimmers.  Note - not all switches and dimmers support these
+events.  This was tested with Zooz devices by user ZippoD
+
+Also new in version 3.1 is that the multi-sensor module now supports all
+the sensors in the Aeotec MultiSensor 6
+____________________________________________________________________________
+
 New version 2 adds improved support for devices that don't properly
 update feedback status after a command is sent to them.  There are now 
 inputs on modules to trigger a refresh and a parameter that will automatically
