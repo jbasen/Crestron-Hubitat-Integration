@@ -138,7 +138,8 @@ a.	Insert a “Hubitat Comm Manager” module into your own program.
 b.	Fill the parameter fields on the Comm Manager module in with
 i.	The IP address of the Hubitat Hub
 ii.	The IP address of the Crestron Processor
-iii.	The communications port you specified in step 7
+iii.	The communications port you want to use for your Crstron processor to
+  receive messages
 iv.	The access token you copied down in step 10
 v.	The Maker API app ID you copied down in step 10
 c.	Insert a “Hubitat Switch” module into your program and fill in the 
