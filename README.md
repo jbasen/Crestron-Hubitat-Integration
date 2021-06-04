@@ -1,4 +1,6 @@
 # Crestron-Hubitat-Integration
+New version 3.4 adds outputs to all modules of the device label defined
+in Hubitat.  This (hopefully) fulfills a user request
 
 New version 3.1 adds support for double-tap and press-hold events for 
 switches and dimmers.  Note - not all switches and dimmers support these
