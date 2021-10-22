@@ -1,4 +1,8 @@
 # Crestron-Hubitat-Integration
+Version 3.6 fixes several bugs introduced by changes made by Crestron
+and Hubitat.  Refresh now properly updates module feedback fields and
+the PostURL field in the MakerAPI is now properly set again.
+
 New version 3.4 adds outputs to all modules of the device label defined
 in Hubitat.  This (hopefully) fulfills a user request
 
