@@ -1,4 +1,10 @@
 # Crestron-Hubitat-Integration
+Version 3.6.1 - It turns out the PostURL bug was only fixed on a 4
+Series Crestron processor.  The code now differentiates whether it is
+running on a 3 series or 4 series processor to create the proper get
+request to set the PostURL field in the Maker API settings on the 
+Hubitat
+
 Version 3.6 fixes several bugs introduced by changes made by Crestron
 and Hubitat.  Refresh now properly updates module feedback fields and
 the PostURL field in the MakerAPI is now properly set again.
