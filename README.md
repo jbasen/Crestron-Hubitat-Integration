@@ -1,4 +1,17 @@
 # Crestron-Hubitat-Integration
+Version 3.6.2 - I haven't been able to find a solution to the problem
+setting the Maker API App PostURL field on a 3 series processor.  So,
+to make this as painless as possible the code now only tries to set
+this field on a 4 series processor.  People using running the code on
+a 3 series processor will have to manually set the PostURL field.  The
+code checks if it is running on a 3 or 4 series processor and only tries
+to set the PostURL field on a 4 series processor.  So, once a person
+running the code on a 3 series processor manually sets the PostURL
+field, they won't have to repeat that step again unless their
+processor IP address changes or the port they wish their processor
+to listen for messages changes.  See step 15 below for information
+on setting this field.
+
 Version 3.6.1 - It turns out the PostURL bug was only fixed on a 4
 Series Crestron processor.  The code now differentiates whether it is
 running on a 3 series or 4 series processor to create the proper get
@@ -161,6 +174,21 @@ d.	Now connect the various signals on the two modules in the same way
 you see them connected in the demo program
 e.	You are done
 
+15. If you are running this code on a 3 series Crestron processor you
+need to perform this step.  It isn't necessary if the code is running
+on a 4 series processor.  In the Hubitat Maker API app seetings page 
+scroll down until you see the field "URL to POST device events to".
+Enter the following in that field:
+http://[Crestron Processor IP Address]:[Communications Port]
+The communications port is the one specified in the Crestron_Processor_Port
+parameter field of the Hubitat Comm Manager module.  So, if the
+processor IP address is 192.168.0.10 and the port is set to 9000 then 
+the following should be entered in the "URL to POST device events to"
+field:
+http://192.168.0.10:9000
+If this field is not properly set then the Crestron system will not
+reflect feedback of the state of devices connected to the Hubitat
+Elevation Hub.
 There are also Crestron modules to support the ability to have IFTTT 
 applets trigger a Crestron program or provide numerical data to a Crestron 
 program.  This complements the IFTTT module on this Github and removes the 
