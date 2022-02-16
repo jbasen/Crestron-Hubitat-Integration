@@ -1,4 +1,11 @@
 # Crestron-Hubitat-Integration
+
+Note - A mistake in the help for the Philips Hue module and the RGB-
+RGBW module was reported to me.  In the help it states that the dim 
+level and dim level fb fields are 0% to 100%.  This is incorrect.
+The fields are actually 0d to 100d.  This will be fixed the next time
+I update a new version but I wanted to let people know about the error.
+
 Version 3.6.2 - I haven't been able to find a solution to the problem
 setting the Maker API App PostURL field on a 3 series processor.  So,
 to make this as painless as possible the code now only tries to set
