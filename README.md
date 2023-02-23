@@ -6,6 +6,10 @@ level and dim level fb fields are 0% to 100%.  This is incorrect.
 The fields are actually 0d to 100d.  This will be fixed the next time
 I update a new version but I wanted to let people know about the error.
 
+Version 3.8 - Add additional code for memory management to work around
+class library memory leak. Added support for Tuya Zigbee Water Valve.
+Added position analog input to Shelly 2.5 in roller/shutter mode.
+
 Version 3.7 - Added support for last update date/time strings to all modules
 so updae times can be monitored. (User Request)
 
