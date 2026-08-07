@@ -1,5 +1,15 @@
 # Crestron-Hubitat-Integration
 
+A long overdue complete rewrite and redesign of the Crestron-
+Hubitat integration driver has been completed and uploaded.  The
+nomenclature for the new driver is Hubitat_v2.  The new driver is
+faster, more flexible, and more maintainable.  And, all this has 
+been done while preserving compatibility with Crestron’s 3-Series 
+product line of smart home processors.  A tutorial is included
+to guide people through the process of migrating to the new version
+
+v1 - Initial release of Hubitat_v2 driver
+
 Note - A mistake in the help for the Philips Hue module and the RGB-
 RGBW module was reported to me.  In the help it states that the dim 
 level and dim level fb fields are 0% to 100%.  This is incorrect.
