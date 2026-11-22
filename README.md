@@ -8,6 +8,9 @@ been done while preserving compatibility with Crestron’s 3-Series
 product line of smart home processors.  A tutorial is included
 to guide people through the process of migrating to the new version
 
+v1.01 - Fixed a corner case exception when the Aqara Thermostat Hub W200
+is Integrated with a Crestron program
+
 v1 - Initial release of Hubitat_v2 driver
 
 Note - A mistake in the help for the Philips Hue module and the RGB-
